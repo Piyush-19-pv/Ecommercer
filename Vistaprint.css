@@ -1,0 +1,224 @@
+*{ 
+    margin: 0%;
+    padding: 0%;
+}
+.C{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    width: 100%;
+    background-color:white;
+}
+.List{
+    font-size: 35px;
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    color: #999;
+}
+
+.D{
+    margin-right: 5%;
+    margin-top: 40px;
+}
+.Search{
+    margin-top: 30px;
+    border-radius: 10px;
+    border: solid 1px #333 ;
+    padding-left: 10px;
+    margin-left: 5%;
+    width: 90%; 
+    height: 50px; 
+    font-size: 25px;
+    outline: none;
+}
+.list{
+    list-style: none;
+    gap: 30px;
+    text-align: justify;
+    align-items: center;
+}
+.navbar ul li{
+    display: flex;
+    align-items: center;
+    text-align: justify;
+}
+.navbar{
+    padding-left: 3%;
+    padding-right: 3%;
+    border-bottom: #999 solid 1px;
+    gap: 30px;
+}
+.navbar .list .list-item:hover{
+    border-bottom: solid 1px #333 ;
+    
+}
+.dropdown{display: none;}
+ul li:hover .dropdown{
+    margin-top: 8%;
+    display:flex;
+    position: absolute;
+}
+.dropdown .drop{
+    display:flex;
+    justify-content: space-between;
+    gap: 120px;
+    
+}
+.item{
+
+    margin-top: 15%;
+    display:flex;
+    text-align: justify;
+    position: absolute;
+    justify-content: space-between;
+    gap: 60px;
+}
+.item ul li{
+    line-height: 1.5;
+}
+.dropdown1{display: none;}
+ul li:hover .dropdown1{
+    margin-top: 8%;
+    display:flex;
+    position: absolute;
+}
+
+.item2{
+    margin-left: -60px;
+    margin-top: 17%;
+    display:flex;
+    text-align: justify;
+    position: absolute;
+    justify-content: space-between;
+    gap: 30px;
+}
+.dropdown1 .drop1{
+    display:flex;
+    justify-content: space-between;
+    gap: 120px;
+}
+.item2 ul li{
+    line-height: 1.5;
+}
+/* section */
+.dropdown2{display: none;}
+ul li:hover .dropdown2{
+    margin-top: 8%;
+    display:flex;
+    position: absolute;
+}
+
+.item3{
+    margin-left: -140px;
+    margin-top: 17%;
+    display:flex;
+    text-align: justify;
+    position: absolute;
+    justify-content: space-between;
+    gap: 30px;
+}
+.dropdown2 .drop2{
+    display:flex;
+    justify-content: space-between;
+    gap: 120px;
+}
+.item3 ul li{
+    line-height: 1.5;
+}
+
+/* agla section */
+
+
+
+.slider-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    color: #fff;
+    padding: 5px 15px; /* Reduced padding */
+    height: 40px; /* Reduced container height */
+    width: 100%; /* Full width */
+    box-sizing: border-box;
+    position: relative;
+  }
+
+  .arrow {
+    font-size: 20px; /* Smaller arrow size */
+    cursor: pointer;
+    user-select: none;
+    color: #fff;
+  }
+
+  .text-content {
+    flex: 1; /* Allows the text to take up the remaining space */
+    text-align: center;
+    font-size: 14px; /* Reduced font size */
+    margin: 0 8px; /* Adjusted spacing between text and arrows */
+    white-space: nowrap; /* Prevents text from wrapping */
+    overflow: hidden; /* Ensures no overflow */
+    text-overflow: ellipsis; /* Adds "..." for overflowing text */
+  }
+
+  /* section2 */
+
+  .banner {
+    width: 100%;
+    height: 300px; /* Adjust banner height */
+    background-image: url('./image/winter.webp'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.banner::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay effect */
+    z-index: 1;
+}
+
+.banner-content {
+    position: relative;
+    z-index: 2;
+    color: white;
+    text-align: center;
+}
+
+.banner-content h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.banner-content p {
+    font-size: 1.2em;
+    margin: 10px 0 20px;
+}
+
+.banner-content .price {
+    font-weight: bold;
+    color: #ffd700;
+}
+
+.shop-now {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.shop-now:hover {
+    background-color: #e64a19;
+}
